@@ -1,0 +1,13 @@
+Gestures & Scroll
+Copyright 2026 Gestures & Scroll contributors
+
+The scroll processing and device detection were informed by Scroll Reverser.
+Scroll Reverser — Copyright 2011 Nicholas Moore, Apache License 2.0.
+https://github.com/pilotmoon/Scroll-Reverser
+
+TrackpadGestureMap inspired the initial gesture settings.
+TrackpadGestureMap — Copyright 2026 Or Davidai Bachar, MIT License.
+https://github.com/turhe123/trackpad-gesture-map
+
+MultitouchSupport interface reference:
+https://github.com/lauschue/Remotastic/blob/main/MultitouchSupport.h
