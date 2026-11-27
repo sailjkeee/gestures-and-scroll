@@ -7,6 +7,10 @@ struct DrawingSettingsView: View {
     private var name = SwiftUI.State(initialValue: "")
     private var assignment = SwiftUI.State(initialValue: DrawingAssignment(action: .closeWindow))
 
+    init(controller: InputController) {
+        self.controller = controller
+    }
+
     private var language: InterfaceLanguage { controller.profile.language }
     private var options: DrawingSettings { controller.profile.drawing }
 
